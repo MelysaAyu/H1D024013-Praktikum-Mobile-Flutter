@@ -1,4 +1,4 @@
-import 'package:belajarflutter/ui/produk_page.dart';
+import 'package:belajarflutter/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,14 +11,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Aplikasi Flutter Pertama",
+      title: 'Flutter Menu',
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,
         ),
       ),
-      home: const ProdukPage(),
+      home: const LoginPage(),
     );
   }
 }
